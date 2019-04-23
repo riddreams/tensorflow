@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-9001"
+all_model_checkpoint_paths: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-5001"
+all_model_checkpoint_paths: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-6001"
+all_model_checkpoint_paths: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-7001"
+all_model_checkpoint_paths: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-8001"
+all_model_checkpoint_paths: "D:/Program Files/PythonProject/tensorflow/chapter2/model\\mymodel.ckpt-9001"
