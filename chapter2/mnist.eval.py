@@ -12,14 +12,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 import mnist_inference
 import mnist_train
  
-# 每10秒加载一次最新的模型，并在测试数据上测试最新模型的正确率。
-EVAL_INTERVAL_SECS = 15
- 
 def evaluate(mnist):
 	with tf.Graph().as_default():
-	# 定义输入输出的格式。
-		x = tf.placeholder(
-		tf.float32, [None, mnist_inference.INPUT_NODE], name='x-input')
+	    # 定义输入输出的格式。
+		x = tf.placeholder(tf.float32, [None, mnist_inference.INPUT_NODE], name='x-input')
 		y_ = tf.placeholder(tf.float32, [None, mnist_inference.OUTPUT_NODE], name='y-input')
 		validate_feed = {x: mnist.validation.images, y_:mnist.validation. labels}
  
